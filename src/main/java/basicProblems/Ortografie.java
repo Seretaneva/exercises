@@ -1,4 +1,4 @@
-package arrayProblems;
+package basicProblems;
 
 public class Ortografie {
     public static void main(String[] args) {
