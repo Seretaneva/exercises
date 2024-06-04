@@ -20,7 +20,7 @@ public class DoubleNumbers {
         boolean isContinue = false;
         System.out.println("The doubled numbers are: ");
         for (int i = 0; i < array1.length - 1; i++) {
-            if (array1[i] * 2 == array1[i + 1]) {
+            if (array1[i] * 2 == array1[i + 1] && array1[i] >=1) {
                 if (isContinue) {
                     count++;
                 } else {
@@ -35,7 +35,7 @@ public class DoubleNumbers {
         count = 0;
         isContinue = false;
         for (int i = 0; i < array1.length - 1; i++) {
-            if (array1[i] * 2 == array1[i + 1]) {
+            if (array1[i] * 2 == array1[i + 1]  && array1[i] >=1) {
                 if (isContinue) {
                     array2[count++] = array1[i + 1];
                 } else {
