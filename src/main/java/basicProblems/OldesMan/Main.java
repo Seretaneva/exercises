@@ -1,5 +1,4 @@
 package basicProblems.OldesMan;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -2,24 +2,32 @@ package basicProblems.OldesMan;
 
 public class People {
     private int age;
-    private  int gender;
-    public  People(int age, int gender){
+    private int gender;
+
+    public People(int age, int gender) {
         this.age = age;
         this.gender = gender;
     }
-    public  People(){};
-    public int getAge(){return age;}
+
+    public People() {
+    }
+
+    ;
+
+    public int getAge() {
+        return age;
+    }
 
     public void setAge(int age) {
         this.age = age;
     }
 
     public int getGender() {
-        if (gender == 1){
+        if (gender == 1) {
             System.out.println("Male");
-        }else if (gender == 0){
+        } else if (gender == 0) {
             System.out.println("Female");
-        }else {
+        } else {
             System.out.println("No gender");
         }
 
@@ -29,10 +37,11 @@ public class People {
     public void setGender(int gender) {
         this.gender = gender;
     }
-    public void findOldestMan(){
 
-       if (this.gender == 1 && this.age >= 50){
-           System.out.println("Man age is : " + this.age);
-       }
+    public void findOldestMan() {
+
+        if (this.gender == 1 && this.age >= 50) {
+            System.out.println("Man age is : " + this.age);
+        }
     }
 }
