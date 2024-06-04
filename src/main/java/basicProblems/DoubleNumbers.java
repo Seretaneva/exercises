@@ -47,7 +47,6 @@ public class DoubleNumbers {
                 isContinue = false;
             }
 
-
         }
         for (int i = 0; i < array2.length; i++) {
             if (array2[i] != 0) {
