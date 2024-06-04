@@ -26,7 +26,6 @@ for (int i = 0; i <= max; i++){
         impartitor = max/3;
     }
 }
-
         if ( max%5 != 0 && max%6 != 0 && max%7 != 0  ){
 
         } else if (max % 5 == 0) {
